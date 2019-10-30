@@ -1,27 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from './Header';
-import Banner from './Banner';
-import Services from './Services';
-import Decoration from './Decoration';
-import Question from './Question';
-import Reviews from './Reviews';
-import Partners from './Partners';
-import Communication from './Communication';
-import Footer from './Footer';
+import Login from './Login';
+import Router from './Route';
+import Home from '../pages/Home';
 
 function App() {
   return (
     <React.Fragment>
-      <Header/>
-      <Banner></Banner>
-      <Services/>
-      <Decoration/>
-      <Question/>
-      <Reviews/>
-      <Partners/>
-      <Communication/>
-      <Footer/>
+      {/* <Home></Home> */}
+      {/* <Login></Login> */}
+      <Router></Router>
 
     </React.Fragment>
   );
