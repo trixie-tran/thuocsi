@@ -1,0 +1,508 @@
+*{margin: 0; padding: 0;}
+
+
+
+
+i.fa.fa-angle-up :after {
+    position: relative;
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 999;
+}
+
+.footer  li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer li:hover {
+    color: #00b46e;
+}
+
+h5.td {
+    font-size: 20px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #00b46e, #f9b514);
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.htkh h5.td {
+    color: #444;
+}
+
+p.buy.mt-1 {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.footer {
+    background: #343a40;
+    color: #fff;
+}
+
+img.icon {
+    margin: 10px;
+    max-width: 35px;
+}
+
+.container.footer {
+    background: #444;
+}
+.footer img {
+    width: 25%;
+}
+
+.dvgh img {
+    width: 6.5rem;
+    height: 2.5em;
+    padding: 4px;
+    vertical-align: top;
+    background-color: white;
+    border-radius: 5px;
+    margin: 1.5px;
+}
+/*hetfooter*/
+/*CSS CHO TRUYENTHONG*/
+.truyenthong .row {
+    padding-left: 100px;
+    /* padding: 16px; */
+}
+
+.dvgh .row {
+    box-sizing: border-box;
+    width: 227%;
+    display: block;
+}
+
+.truyenthong img {
+    padding: 20px;
+    height: 100%;
+}
+
+.truyenthong img:hover{
+	 animation: tolen 0.5s forwards;
+}
+@-webkit-keyframes tolen{
+	0%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(1.1);
+	}
+}
+
+img.tt3 {
+    width: 100%;
+}
+
+img.tt1 {
+    margin-top: 4%;
+    background-color: #fff;
+    padding: 0;
+    margin-right: 20px;
+    max-height: 71px;
+}
+
+
+.truyenthong {
+    background: #00b46e;
+    height: 380px;
+    margin-top: 40px;
+}
+.truyenthong i.fa.fa-angle-up {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    font-size: 42px;
+    font-weight: bold;
+    margin-left: -25px;
+    margin-top: 15px;
+    background: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*HETTRUYENTHONG*/
+/*css cho doitac*/
+.doitac .carousel-item {
+    height: 200px;
+}
+
+.doitac .carousel-item.active {
+    /* float: left; */
+}
+
+.doitac div#carousel-example-generic {
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.row.slideshow {
+    height: 250px;
+}
+
+.doitac .container {
+    height: 250px;
+}
+
+.doitac {
+    height: 250px;
+}
+ /*hetdoitac*/
+/*CSS REVIEW*/
+.review {
+    background: #f8f9fa;
+}
+.review .rv span {
+    position: absolute;
+    top: 69%;
+    line-height: normal;
+    font-style: italic;
+    color: #403e3e;
+    left: 0;
+    width: 86%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 7%;
+}
+
+.review .rv p {
+    position: absolute;
+    top: 63%;
+    left: 0;
+    color: #138496;
+    font-weight: 500;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+}
+
+h5.name {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    margin-left: -45px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #00b46e;
+}
+
+.review .daddy {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.review img {
+    border-radius: 50%;
+    height: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 74px;
+    box-sizing: border-box;
+}
+ /*HETREVIEW*/
+/*css question*/
+.question ul li {
+    margin-top: 3px;
+    font-size: 17px;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.question li {
+    list-style: none;
+}
+
+.question li:hover {
+    color: #00b46e;
+}
+
+h4.tt {
+    color: #00b46e;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.truyenthong h4.tt.mt-2 {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container.question {
+    height: 350px;
+}
+.question .row:after {content: 'Xem tất cả câu hỏi';margin: auto;cursor: pointer;color: #00b46e;}
+/*hetquestion*/
+/*css anhthuoc*/
+i.fa {
+    padding-right: 3px;
+}
+
+.combonut {
+    position: absolute;
+    left: 50%;
+    margin-left: -195px;
+    top: 118px;
+}
+
+.anhthuoc h4 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff4f4;
+    margin-top: 75px;
+}
+
+.col-sm-4.push-sm-4.khoi {
+    position: relative;
+}
+
+.col-sm-6.push-sm-3.khoi {
+    position: relative;
+}
+
+
+
+.anhthuoc .row {
+    width: 100%;
+    height: 200px;
+    background: #0605059e;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container-fluid.anhthuoc {
+    background: url(images/nen1.jpg);
+    background-attachment: fixed;
+    height: 200px;
+    padding: 0;
+}
+/*hetanhthuoc*/
+/* css cho service*/
+.nho p {
+    font-size: 17px;
+    font-weight: 300;
+    color: #5f5757;
+}
+
+.service {
+    height: 120px;
+}
+
+.daddy .col-sm-4 {
+    padding: 0 56px;
+    box-sizing: border-box;
+}
+
+.dady.col-sm-4 {}
+
+.nho h4 {
+    color: #00b46e;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.col-sm-8.nho {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+/*.col-sm-3.daddy {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}*/
+/*hÃ¡ÂºÂ¿trvice
+*/
+/*css cho banner*/
+
+.banner {
+    height: 700px;
+}
+
+.col-sm-6.phai.float-sm-right {
+    padding: 0;
+    text-align: right;
+}
+.top .trai img {
+    height: 33px;
+}
+
+span {
+    color: #00b46e;
+    font-size: 17px;
+    font-weight: 500;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.footer span {
+    color: white;
+    font-weight: 500;
+}
+
+button.btn-info.login {
+    width: 126px;
+}
+
+button.btn-info.login {
+    color: black;
+}
+
+.col-sm-6.trai {
+    padding: 0;
+    vertical-align: middle;
+}
+
+i.fa-phone {
+    font-weight: 600;
+}
+
+i.fa.fa-phone {
+    color: #00b46e;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 500;
+    transform: rotateY(-180deg);
+}
+
+.lh i.fa {
+    margin-right: 8px;
+    color: #fff;
+    padding: 6px;
+}
+.top.container {
+    height: 56px;
+    }
+.top .trai img {
+    height: 32px;
+    /* vertical-align: middle; */
+}
+
+img {}
+
+img.tt3 {
+    max-width: 199px;
+}
+
+img.bct {
+    width: 155px;
+}
+
+img.tt5 {
+    margin-top: 2%;
+    max-height: 148px;
+    max-width: 203px;
+}
+
+img.tt4 {
+    margin-top: -2%;
+    max-width: 200px;
+    max-height: 235px;
+}
+
+img.tt3 {
+    margin-top: -2%;
+}
+
+img.tt2 {
+    margin-top: 1%;
+}
+
+.doitac img {
+    padding: 12px;
+}
+
+.doitac .carousel-item img {
+    /* height: 200px; */
+    width: 186px;
+}
+
+.banner img {
+    width: 100%;
+    height: 700px !important;
+    overflow: hidden; 
+}
+
+.top .row {
+    height: 56px;
+    padding: 0;
+    line-height: 56px;
+} 
+button.btn-info {
+    width: 136px;
+    height: 40px;
+    color: black;
+    font-size: 17px;
+    border-radius: 5px;
+    line-height: 40px;
+    background: #f9b514;
+    border: #f9b514;
+    font-weight: 500;
+    margin: 0px 1px;
+}
+
+button.btn-info.help {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 30px;
+    background: #00b46e;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+button.btn-info.test {
+    background: #17a2b8;
+    border: #17a2b8;
+    width: 118px;
+}
+
+button.btn-info.test:hover {
+    background: #138496;
+    border: #117a8b;
+}
+button.btn-info.login {
+    width: 126px;
+}
+button.btn-info.login:hover {
+    background: #e1a006;
+    border: #d59705;
+}
+button.btn-info.create {
+    background: #00b46e;
+    border: #00b46e;
+    color: white;
+    }
+    button.btn-info.create:hover {
+    background: #008e57;
+    border: #00814f;
+}
+ /*hetbanner*/
